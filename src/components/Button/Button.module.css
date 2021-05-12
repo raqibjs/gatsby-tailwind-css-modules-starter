@@ -1,0 +1,7 @@
+.btn {
+  @apply px-10 py-4 text-xs leading-[24px] tracking-[3px] text-white transition duration-500 ease-in rounded-sm shadow  focus:duration-150 focus:outline-none;
+
+  &.btnPrimary {
+    @apply bg-primary hover:bg-secondary hover:shadow-xl;
+  }
+}
